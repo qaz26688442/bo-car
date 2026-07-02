@@ -5,7 +5,7 @@ import os
 from PIL import Image, ImageFilter
 
 SRC = "images"
-OUT = "images/web"
+OUT = "public/images/web"
 MAXW = 1600  # cap width for web
 
 # output_name: (source_file, [ (x, y, w, h) as fractions of image w/h ])

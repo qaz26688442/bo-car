@@ -1,0 +1,4 @@
+# Cloudflare Pages headers
+# Long-cache the processed images (their content is stable).
+/images/web/*
+  Cache-Control: public, max-age=31536000, immutable

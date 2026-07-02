@@ -2,3 +2,5 @@
 scratchpad/
 __pycache__/
 *.pyc
+.superpowers/
+venv/
