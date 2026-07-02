@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const closeBtn = lightbox.querySelector('.lightbox-close');
   function openLightbox(src) { lightboxImg.src = src; lightbox.hidden = false; document.body.style.overflow = 'hidden'; }
   function closeLightbox() { lightbox.hidden = true; lightboxImg.src = ''; document.body.style.overflow = ''; }
-  document.querySelectorAll('.gallery-item').forEach(btn =>
+  document.querySelectorAll('.strip-item').forEach(btn =>
     btn.addEventListener('click', () => openLightbox(btn.dataset.src)));
   closeBtn.addEventListener('click', closeLightbox);
   lightbox.addEventListener('click', e => { if (e.target === lightbox) closeLightbox(); });

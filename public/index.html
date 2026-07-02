@@ -12,93 +12,151 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="#hero" class="brand">松坂搬家</a>
-      <nav class="header-cta">
-        <a class="btn btn-phone" href="tel:0916383872" aria-label="撥打電話 0916383872">📞 撥電話</a>
-        <a class="btn btn-line" href="https://lin.ee/VOLz2Qq" target="_blank" rel="noopener" aria-label="加入 LINE 好友詢價">💬 加 LINE</a>
+  <header class="top">
+    <div class="wrap top-in">
+      <a href="#hero" class="brand">
+        <span class="seal seal-sm" aria-hidden="true"><i>松</i><i>坂</i><i>搬</i><i>家</i></span>
+        <span class="brand-name">松坂搬家</span>
+      </a>
+      <nav class="top-cta">
+        <a class="top-tel" href="tel:0916383872" aria-label="撥打電話 0916383872">
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2z"/></svg>
+          0916-383-872
+        </a>
+        <a class="btn btn-line btn-sm" href="https://lin.ee/VOLz2Qq" target="_blank" rel="noopener" aria-label="加入 LINE 好友詢價">
+          <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.5 1.4 4.7 3.6 6.2-.1.6-.5 2-1.2 3.1-.2.3.1.7.4.6 1.9-.4 3.5-1.3 4.4-1.9.9.2 1.8.3 2.8.3 5.5 0 10-3.6 10-8.3S17.5 3 12 3z"/></svg>
+          加 LINE
+        </a>
       </nav>
     </div>
   </header>
 
   <main>
     <section id="hero" class="hero">
-      <div class="hero-overlay"></div>
-      <div class="container hero-content">
-        <h1>松坂搬運搬家 ＆ 廢棄物清運</h1>
-        <p class="hero-slogan">專業搬遷團隊，從打包到清運一次搞定</p>
-        <div class="hero-cta">
-          <a class="btn btn-phone btn-lg" href="tel:0916383872">📞 撥打 0916383872</a>
-          <a class="btn btn-line btn-lg" href="https://lin.ee/VOLz2Qq" target="_blank" rel="noopener">💬 加 LINE 免費估價</a>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="v-eyebrow" aria-hidden="true">雙北・桃園｜到府搬運・清運</p>
+          <h1>搬家、清運，<br>一車搞定。</h1>
+          <p class="lede">松坂搬家，師傅帶隊到府。住家、公司、重物搬運照顧到位，舊家具、廢棄物順路清走 —— 細心包裝，透明報價。</p>
+          <div class="tel-block">
+            <span class="tel-label">直接打給師傅</span>
+            <a class="tel-big" href="tel:0916383872">0916-383-872</a>
+          </div>
+          <div class="cta-row">
+            <a class="btn btn-phone" href="tel:0916383872">
+              <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2z"/></svg>
+              撥打電話
+            </a>
+            <a class="btn btn-line" href="https://lin.ee/VOLz2Qq" target="_blank" rel="noopener">
+              <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.5 1.4 4.7 3.6 6.2-.1.6-.5 2-1.2 3.1-.2.3.1.7.4.6 1.9-.4 3.5-1.3 4.4-1.9.9.2 1.8.3 2.8.3 5.5 0 10-3.6 10-8.3S17.5 3 12 3z"/></svg>
+              加 LINE 估價
+            </a>
+          </div>
+          <p class="facts">週一至週日 08:00–20:00・加 LINE 傳照片就能先估價</p>
+        </div>
+        <div class="hero-shot" aria-hidden="true">
+          <figure class="shot shot-back"><img src="images/web/svc-waste.jpg" alt="" loading="eager"></figure>
+          <figure class="shot shot-front"><img src="images/web/hero.jpg" alt="松坂搬家師傅於台北街頭搬運家具" loading="eager"></figure>
+          <span class="seal seal-stamp"><i>松</i><i>坂</i><i>搬</i><i>家</i></span>
         </div>
       </div>
     </section>
 
     <section id="services" class="section">
-      <div class="container">
-        <h2 class="section-title">服務項目</h2>
-        <p class="section-sub">搬家與清運一條龍，一通電話全部搞定</p>
-        <div class="service-grid">
-          <article class="service-card">
-            <img src="images/web/svc-home.jpg" alt="住家搬家：電梯口包裝保護好的家具" loading="lazy">
-            <div class="service-body"><h3>住家搬家</h3>
-              <p>套房、公寓、透天住家搬遷，細心包裝家具家電，快速確實。</p></div>
-          </article>
-          <article class="service-card">
-            <img src="images/web/svc-office.jpg" alt="公司辦公室搬遷：大樓走廊搬運設備" loading="lazy">
-            <div class="service-body"><h3>公司／辦公室搬遷</h3>
-              <p>辦公桌椅、設備、文件整批搬遷，配合時段減少營運影響。</p></div>
-          </article>
-          <article class="service-card">
-            <img src="images/web/svc-heavy.jpg" alt="家具重物搬運：完整包覆保護的大型家具" loading="lazy">
-            <div class="service-body"><h3>家具／重物搬運</h3>
-              <p>鋼琴、保險箱、大型家電等重物專業搬運，安全就定位。</p></div>
-          </article>
-          <article class="service-card">
-            <img src="images/web/svc-waste.jpg" alt="廢棄物清運：工地與大型廢棄物清運" loading="lazy">
-            <div class="service-body"><h3>廢棄物清運</h3>
-              <p>舊家具、大型垃圾、裝潢廢棄物清除，快速估價、環保處理。</p></div>
-          </article>
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="sec-tag">服務項目</span>
+          <h2>從打包到清運，一次搞定</h2>
+        </div>
+        <ul class="menu">
+          <li class="menu-row">
+            <span class="menu-no" aria-hidden="true">一</span>
+            <img class="menu-thumb" src="images/web/svc-home.jpg" alt="住家搬家:電梯口包裝保護好的家具" loading="lazy" width="120" height="120">
+            <div class="menu-body">
+              <h3>住家搬家</h3>
+              <p>套房、公寓、透天都搬。家具家電先包再上車，新家定位好才收工。</p>
+            </div>
+          </li>
+          <li class="menu-row">
+            <span class="menu-no" aria-hidden="true">二</span>
+            <img class="menu-thumb" src="images/web/svc-office.jpg" alt="公司辦公室搬遷:大樓走廊搬運設備" loading="lazy" width="120" height="120">
+            <div class="menu-body">
+              <h3>公司・辦公室搬遷</h3>
+              <p>桌椅、設備、文件整批搬遷，可配合下班與假日時段，不耽誤營運。</p>
+            </div>
+          </li>
+          <li class="menu-row">
+            <span class="menu-no" aria-hidden="true">三</span>
+            <img class="menu-thumb" src="images/web/svc-heavy.jpg" alt="家具重物搬運:完整包覆保護的大型家具" loading="lazy" width="120" height="120">
+            <div class="menu-body">
+              <h3>家具・重物搬運</h3>
+              <p>鋼琴、保險箱、大型家電，人力工具齊備，樓梯間也搬得上去。</p>
+            </div>
+          </li>
+          <li class="menu-row">
+            <span class="menu-no" aria-hidden="true">四</span>
+            <img class="menu-thumb" src="images/web/svc-waste.jpg" alt="廢棄物清運:工地與大型廢棄物清運" loading="lazy" width="120" height="120">
+            <div class="menu-body">
+              <h3>廢棄物清運</h3>
+              <p>舊家具、裝潢廢料、大型垃圾，估好價直接載走，環保處理。</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="why" class="section rules">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="sec-tag">松坂的做法</span>
+          <h2>我們的四個規矩</h2>
+        </div>
+        <div class="rules-grid">
+          <div class="rule">
+            <h3>「透明報價」</h3>
+            <p>電話裡說多少，現場就是多少，不臨時加價。</p>
+          </div>
+          <div class="rule">
+            <h3>「細心包裝」</h3>
+            <p>毯子、氣泡布先包好再搬，牆角和電梯一起顧到。</p>
+          </div>
+          <div class="rule">
+            <h3>「準時到府」</h3>
+            <p>約幾點就幾點，師傅不讓你空等。</p>
+          </div>
+          <div class="rule">
+            <h3>「一車到底」</h3>
+            <p>搬完順手把舊物載走，不用再找第二台車。</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="why" class="section">
-      <div class="container">
-        <h2 class="section-title">為什麼選擇松坂搬家</h2>
-        <p class="section-sub">讓您搬家省心又安心</p>
-        <div class="feature-grid">
-          <div class="feature"><span class="feature-ico">💰</span><h3>透明報價</h3><p>清楚估價不亂加價</p></div>
-          <div class="feature"><span class="feature-ico">📦</span><h3>細心包裝</h3><p>專業防護物品不受損</p></div>
-          <div class="feature"><span class="feature-ico">⏰</span><h3>準時到府</h3><p>約定時間準時服務</p></div>
-          <div class="feature"><span class="feature-ico">♻️</span><h3>搬運＋清運一條龍</h3><p>舊物清運一次完成</p></div>
+    <section id="gallery" class="section gallery">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="sec-tag">現場實錄</span>
+          <h2>每一趟，都這樣搬</h2>
         </div>
       </div>
-    </section>
-
-    <section id="gallery" class="section">
-      <div class="container">
-        <h2 class="section-title">實績照片</h2>
-        <p class="section-sub">實際搬運與清運現場</p>
-        <div class="gallery-grid">
-          <button class="gallery-item" data-src="images/web/g01.jpg"><img src="images/web/g01.jpg" alt="搬運清運實績照片 1" loading="lazy"></button>
-          <button class="gallery-item" data-src="images/web/g02.jpg"><img src="images/web/g02.jpg" alt="搬運清運實績照片 2" loading="lazy"></button>
-          <button class="gallery-item" data-src="images/web/g03.jpg"><img src="images/web/g03.jpg" alt="搬運清運實績照片 3" loading="lazy"></button>
-          <button class="gallery-item" data-src="images/web/g04.jpg"><img src="images/web/g04.jpg" alt="搬運清運實績照片 4" loading="lazy"></button>
-          <button class="gallery-item" data-src="images/web/g05.jpg"><img src="images/web/g05.jpg" alt="搬運清運實績照片 5" loading="lazy"></button>
-          <button class="gallery-item" data-src="images/web/g06.jpg"><img src="images/web/g06.jpg" alt="搬運清運實績照片 6" loading="lazy"></button>
-          <button class="gallery-item" data-src="images/web/g07.jpg"><img src="images/web/g07.jpg" alt="搬運清運實績照片 7" loading="lazy"></button>
-          <button class="gallery-item" data-src="images/web/g08.jpg"><img src="images/web/g08.jpg" alt="搬運清運實績照片 8" loading="lazy"></button>
-          <button class="gallery-item" data-src="images/web/g09.jpg"><img src="images/web/g09.jpg" alt="搬運清運實績照片 9" loading="lazy"></button>
-          <button class="gallery-item" data-src="images/web/g10.jpg"><img src="images/web/g10.jpg" alt="搬運清運實績照片 10" loading="lazy"></button>
-          <button class="gallery-item" data-src="images/web/g11.jpg"><img src="images/web/g11.jpg" alt="搬運清運實績照片 11" loading="lazy"></button>
-        </div>
+      <div class="strip" tabindex="0" aria-label="實績照片，可左右捲動">
+        <button class="shot strip-item" data-src="images/web/g01.jpg"><img src="images/web/g01.jpg" alt="搬運清運實績照片 1" loading="lazy"></button>
+        <button class="shot strip-item" data-src="images/web/g02.jpg"><img src="images/web/g02.jpg" alt="搬運清運實績照片 2" loading="lazy"></button>
+        <button class="shot strip-item" data-src="images/web/g03.jpg"><img src="images/web/g03.jpg" alt="搬運清運實績照片 3" loading="lazy"></button>
+        <button class="shot strip-item" data-src="images/web/g04.jpg"><img src="images/web/g04.jpg" alt="搬運清運實績照片 4" loading="lazy"></button>
+        <button class="shot strip-item" data-src="images/web/g05.jpg"><img src="images/web/g05.jpg" alt="搬運清運實績照片 5" loading="lazy"></button>
+        <button class="shot strip-item" data-src="images/web/g06.jpg"><img src="images/web/g06.jpg" alt="搬運清運實績照片 6" loading="lazy"></button>
+        <button class="shot strip-item" data-src="images/web/g07.jpg"><img src="images/web/g07.jpg" alt="搬運清運實績照片 7" loading="lazy"></button>
+        <button class="shot strip-item" data-src="images/web/g08.jpg"><img src="images/web/g08.jpg" alt="搬運清運實績照片 8" loading="lazy"></button>
+        <button class="shot strip-item" data-src="images/web/g09.jpg"><img src="images/web/g09.jpg" alt="搬運清運實績照片 9" loading="lazy"></button>
+        <button class="shot strip-item" data-src="images/web/g10.jpg"><img src="images/web/g10.jpg" alt="搬運清運實績照片 10" loading="lazy"></button>
+        <button class="shot strip-item" data-src="images/web/g11.jpg"><img src="images/web/g11.jpg" alt="搬運清運實績照片 11" loading="lazy"></button>
       </div>
+      <p class="strip-hint wrap">← 左右滑動看更多，點照片可放大 →</p>
       <div class="lightbox" id="lightbox" hidden>
         <button class="lightbox-close" aria-label="關閉">✕</button>
         <img class="lightbox-img" src="" alt="放大檢視">
@@ -106,43 +164,55 @@
     </section>
 
     <section id="faq" class="section">
-      <div class="container narrow">
-        <h2 class="section-title">常見問答</h2>
+      <div class="wrap narrow">
+        <div class="sec-head">
+          <span class="sec-tag">常見問答</span>
+          <h2>先看這裡，再打給我們</h2>
+        </div>
         <div class="faq-list">
           <details class="faq-item"><summary>怎麼報價？</summary>
-            <p>可電話或加 LINE 告知物品與樓層，我們提供估價。</p></details>
+            <p>電話或 LINE 告知物品、樓層與地點，傳幾張照片更準，我們直接估給你。</p></details>
           <details class="faq-item"><summary>服務範圍到哪？</summary>
-            <!-- 服務地區：待業主確認，暫以示意 -->
-            <p>雙北・桃園地區皆可服務，詳細範圍歡迎來電洽詢。</p></details>
+            <!-- 服務地區:待業主確認，暫以示意 -->
+            <p>雙北、桃園地區皆可服務，詳細範圍歡迎來電洽詢。</p></details>
           <details class="faq-item"><summary>大型廢棄物能一起清嗎？</summary>
-            <p>可以，搬家同時可代清運舊家具與大型垃圾。</p></details>
+            <p>可以，搬家同時可代清運舊家具與大型垃圾，一車處理完。</p></details>
           <details class="faq-item"><summary>假日有服務嗎？</summary>
-            <!-- 營業時間：待業主確認，暫以示意 -->
+            <!-- 營業時間:待業主確認，暫以示意 -->
             <p>週一至週日 08:00–20:00 皆可服務，歡迎預約。</p></details>
         </div>
       </div>
     </section>
 
     <section id="contact" class="contact">
-      <div class="container">
-        <h2 class="section-title contact-title">立即聯絡我們</h2>
-        <p class="contact-sub">免費估價・快速回覆</p>
-        <div class="contact-cta">
-          <a class="btn btn-phone btn-lg" href="tel:0916383872">📞 撥打 0916383872</a>
-          <a class="btn btn-line btn-lg" href="https://lin.ee/VOLz2Qq" target="_blank" rel="noopener">💬 加 LINE 詢價</a>
+      <div class="wrap contact-in">
+        <span class="seal seal-lg" aria-hidden="true"><i>松</i><i>坂</i><i>搬</i><i>家</i></span>
+        <h2>要搬家、要清運，<br>打這支就對了。</h2>
+        <a class="tel-giant" href="tel:0916383872">0916-383-872</a>
+        <div class="cta-row">
+          <a class="btn btn-line" href="https://lin.ee/VOLz2Qq" target="_blank" rel="noopener">
+            <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.5 1.4 4.7 3.6 6.2-.1.6-.5 2-1.2 3.1-.2.3.1.7.4.6 1.9-.4 3.5-1.3 4.4-1.9.9.2 1.8.3 2.8.3 5.5 0 10-3.6 10-8.3S17.5 3 12 3z"/></svg>
+            加 LINE 詢價
+          </a>
         </div>
-        <ul class="contact-info">
-          <li>📍 服務地區：雙北・桃園<!-- 待業主確認 --></li>
-          <li>🕗 營業時間：週一至週日 08:00–20:00<!-- 待業主確認 --></li>
-        </ul>
-        <p class="footer-brand">松坂搬家 ｜ 專業搬家・廢棄物清運</p>
+        <dl class="info">
+          <div><dt>服務地區</dt><dd>雙北・桃園<!-- 待業主確認 --></dd></div>
+          <div><dt>營業時間</dt><dd>週一至週日 08:00–20:00<!-- 待業主確認 --></dd></div>
+        </dl>
+        <p class="copyright">松坂搬家 ｜ 專業搬家・廢棄物清運</p>
       </div>
     </section>
   </main>
 
   <div class="mobile-bar">
-    <a class="mobile-bar-btn phone" href="tel:0916383872" aria-label="撥打電話">📞 撥電話</a>
-    <a class="mobile-bar-btn line" href="https://lin.ee/VOLz2Qq" target="_blank" rel="noopener" aria-label="加 LINE">💬 加 LINE</a>
+    <a class="mobile-bar-btn phone" href="tel:0916383872" aria-label="撥打電話">
+      <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2z"/></svg>
+      撥電話
+    </a>
+    <a class="mobile-bar-btn line" href="https://lin.ee/VOLz2Qq" target="_blank" rel="noopener" aria-label="加 LINE">
+      <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.5 1.4 4.7 3.6 6.2-.1.6-.5 2-1.2 3.1-.2.3.1.7.4.6 1.9-.4 3.5-1.3 4.4-1.9.9.2 1.8.3 2.8.3 5.5 0 10-3.6 10-8.3S17.5 3 12 3z"/></svg>
+      加 LINE
+    </a>
   </div>
 
   <script src="main.js"></script>
